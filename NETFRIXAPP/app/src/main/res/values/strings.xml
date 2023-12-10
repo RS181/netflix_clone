@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NETFRIXAPP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abrir_ficheiros">Abrir Ficheiros</string>
+    <string name="carregar">Carregar</string>
+    <string name="remove">Remove</string>
+    <string name="upload">Upload</string>
+    <string name="duration">Duration</string>
+    <string name="year">Year</string>
+    <string name="gerenciamento_de_admins">Gerenciamento de Admins</string>
+    <string name="gerenciamento_de_filmes">Gerenciamento de Filmes</string>
+    <string name="gerenciamento_de_clientes">Gerenciamento de Clientes</string>
+    <string name="registar_novo_admin">Registar Novo Admin</string>
+    <string name="registar">registar</string>
+    <string name="registar_novo_user">registar novo user</string>
+    <string name="textview">TextView</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:id="@+id/fragment_container">
+
+    <Button
+        android:id="@+id/Abrir_Ficheiros"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#A60202"
+        android:clickable="true"
+        android:text="Abrir Ficheiros"
+        android:textColor="@color/design_default_color_secondary"
+        tools:ignore="HardcodedText,KeyboardInaccessibleWidget" />
+
+
+    <ImageView
+        android:id="@+id/insert_file"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:alpha="0.3"
+        android:clickable="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/insert_file"
+        android:focusable="true"
+        tools:ignore="ContentDescription" />
+    <EditText
+        android:id="@+id/MovieName"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:visibility="invisible"
+        android:hint="Movie Name"
+        tools:ignore="HardcodedText,LabelFor,TextFields"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Duration"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:visibility="invisible"
+        android:hint="@string/duration"
+        tools:ignore="LabelFor,TextFields"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Year"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:visibility="invisible"
+        android:hint="@string/year"
+        tools:ignore="Autofill,LabelFor,TextFields"/>
+
+
+    <Button
+        android:id="@+id/Carregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#A60202"
+        android:clickable="true"
+        android:text="Carregar"
+        android:textColor="@color/design_default_color_secondary"
+        android:focusable="true"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:id="@+id/Carregando"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/temp1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:visibility="gone"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/temp2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="100dp"
+        android:visibility="gone"
+        android:text="TextView" />
+
+</RelativeLayout>

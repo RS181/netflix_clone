@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:background="@color/purple_500">
+
+    <TextView
+        android:id="@+id/moviedesc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        tools:ignore="TextViewEdits" />
+
+    <!-- Use a spacer view to push buttons to the right -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/highQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Red"
+        android:clickable="true"
+        android:text="1080p"
+        android:textSize="12dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <!-- Add margin between the two buttons -->
+    <Button
+        android:id="@+id/lowQ"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/Red"
+        android:text="360p"
+        android:textSize="12dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+</LinearLayout>
