@@ -75,3 +75,4 @@ The following images are screenshots of our project. <br>
 
 > [!NOTE]
 > The movies weren't saved in the database it self but rather it's path to the folder where they were stored.
+> In the android applications you may have to change local settings in local.properties (to sdk.dir=C\:\\Users\\USERNAME\\AppData\\Local\\Android\\Sdk)
