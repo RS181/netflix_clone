@@ -71,9 +71,6 @@ The following images are screenshots of our project. <br>
           <img src="https://github.com/RS181/netflix_clone/assets/127786118/10ce821a-a7a8-4206-ba14-f8caa8eccd58" with=200
   height=400 alt="image8">
 
-![060fe42b-782a-4a22-89c1-ac25080e1a7e](https://github.com/RS181/netflix_clone/assets/127786118/10ce821a-a7a8-4206-ba14-f8caa8eccd58)
-
-
 
 
 > [!NOTE]
